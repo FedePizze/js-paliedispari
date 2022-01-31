@@ -17,8 +17,18 @@ let reverse = split.reverse();
 let reverseText = reverse.join('');
 
 //creo la condizione per definire se la parole che ho scritto all'inizio è palindroma oppure no
-if(parola == reverseText){
+if(text == reverseText){
     alert('la parola è palindroma');
 } else {
     alert('la parola non è palindroma');
 }
+
+/*
+let split = text.split('').reverse().join('');
+
+if(text == split){
+    alert('la parola è palindroma');
+} else {
+    alert('la parola non è palindroma');
+}
+*/
