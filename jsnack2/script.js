@@ -87,8 +87,17 @@ const fine = risultato();
 //console.log(fine)
 
 
+if (fine == pariOdispari ) {
+    alert('hai vinto')
+} else {
+    alert('hai perso')
+}
+
+
+/*
 if (fine == 'PARI' ) {
     alert('hai vinto')
 } else {
     alert('hai perso')
 }
+*/
