@@ -23,6 +23,8 @@ if(text == reverseText){
     alert('la parola non è palindroma');
 }
 
+
+
 /*
 let split = text.split('').reverse().join('');
 
